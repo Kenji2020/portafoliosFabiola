@@ -4,6 +4,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import borderline2 from "../img/borderline2.mp4";
 import descripcionTeatro from "../img/descripcionTeatro.jpg";
 import deforestacion from '../img/deforestacion.mp4'
+import tiktoks from "/Users/victorsalgado/Desktop/portafoliosFabiola2/src/img/mezlatiktoks.mp4"
 import {Modalcito} from '../Components/Modalcito'
 export const Mainpage = () => {
   const myRef = useRef();
@@ -35,11 +36,17 @@ export const Mainpage = () => {
         donde realicé la labor de directora y escritora con el fin de ejecutar
         una obra audiovisual.
       </h1>
+      <br/>
       <div class="column">
-        <video src={deforestacion} autoPlay loop muted width="1900" height="1100"/>
+        <video src={deforestacion} autoPlay loop muted style={{marginTop:'200px', height:'1000px'}}/>
+        <video src={tiktoks} autoPlay loop muted style={{marginTop:'200px', height:'1000px'}}/>
       </div>
-      <h1 className="rojitoespecial2" style={{marginLeft:'100px'}}>
+      <h1 className="rojitoespecial2" style={{marginTop:'25%', marginLeft:'20%'}}>
       Video realizado en conjunto a dupla creativa con el objetivo de viralización y difusión ante problemática ocurrida en sectores de Pucón.
+      <br />
+      <br/>
+      <br/>
+      Tik toks realizados para el equipo de comunicación comunal por Gabriel Boric con el fin de promover su candidatura y establecer una relación con el público objetivo tras una estrategia realizada y analizada exhaustivamente.
       </h1>
     </div>
   );
